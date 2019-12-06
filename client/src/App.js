@@ -1,11 +1,12 @@
 import React from 'react';
 import PlayerList from './components/PlayerList'
+import Navbar from './components/Navbar'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Soccer Players</h1>
+      <Navbar/>
       <div className='playerList'>
       <PlayerList/>
       </div>
