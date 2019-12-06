@@ -19,3 +19,21 @@
   color: #fff;
   background-color: #313843;
 }
+
+.playerList{
+  height: 10000px;
+  width: 90%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+  margin:10%;
+
+}
+
+.playerCard{
+  width:40%;
+  height:175px;
+  border: 2px solid dodgerblue;
+  background-color: grey;
+}
